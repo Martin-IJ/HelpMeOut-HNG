@@ -13,6 +13,7 @@
 
 ## How to run locally
 
-- Clone the repo from github by running ``
+- Clone the repo from github by running `https://github.com/Muees99/HelpMeOut-Web.git`
 - Then run `npm install` to install all dependencies.
 - Finally run `nmp run dev` to rum the app locally
+
