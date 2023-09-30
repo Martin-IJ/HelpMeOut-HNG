@@ -1,7 +1,7 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom"
-import {LandingPage}from"./Pages/LandingPage"
-import { Auth } from" ./Pages/Auth";
-import { Videos } from "./Pages/Videos";
+import LandingPage from"./Pages/LandingPage"
+import Auth from"./Pages/Auth"
+import Videos from"./Pages/Videos"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
