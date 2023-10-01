@@ -20,8 +20,8 @@ const Videos = () => {
             <span className='font-work text-[18px] text-text-grey opacity-70'>Here are your recorded videos</span>
           </div>
           <form className='border border-solid border-primary-50 rounded flex gap-2 items-center px-6 py-4 bg-primary-50'>
-            <MdSearch className='text-text-grey w-6 h-6' />
-            <input className='bg-primary-50 outline-none h-8 text-text-grey font-work' type="search" />
+            <MdSearch  className='text-text-grey w-6 h-6' />
+            <input className='bg-primary-50 outline-none h-8 text-text-grey font-work'  type="search" />
           </form>
         </aside>
       </header>

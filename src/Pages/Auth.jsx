@@ -34,7 +34,7 @@ const Auth = () => {
             </label>
             <label className='flex flex-col gap-2 font-work'>
               Password
-              <input className='border p-4 rounded-lg outline-none text-text-grey font-work text-lg' type="password" value="test1234" />
+              <input className='border p-4 rounded-lg outline-none text-text-grey font-work text-lg' type="password" value="Muees99@HNGx" />
             </label>
             <Link to='/videos' className='px-5 py-4 font-work text-white bg-primary-main rounded-lg text-center'>Sign up</Link>
           </form>
