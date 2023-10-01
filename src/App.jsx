@@ -2,15 +2,17 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import LandingPage from"./Pages/LandingPage"
 import Auth from"./Pages/Auth"
 import Videos from"./Pages/Videos"
-import Recording from "./Pages/Recording"
+import Video from "./Pages/Video"
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/auth" element={<Auth />} />
-      <Route path="/videos" element={<Videos />} />
-      <Route path="/recording" element={<Recording />} />
+      <Route path="/" element={<LandingPage/>} />
+      <Route path='/auth' element={<Auth />}/>
+      <Route path='/videos' element={<Videos/>} />
+      <Route path='/videos/:id' element={<Video/>}/>
+
 
     </Route>
   )
